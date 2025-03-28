@@ -1,4 +1,4 @@
-# ice_breaker
+# Ice breaker
 
 A repository for learning LangChain🦜🔗  by building a generative ai application.
 
@@ -14,7 +14,7 @@ To run this project, you will need to add the following environment variables to
 
 `OPENAI_API_KEY`
 
-`SCRAPIN_API_KEY` 
+`SCRAPIN_API_KEY`
 
 `TAVILY_API_KEY`
 
@@ -26,9 +26,9 @@ To run this project, you will need to add the following environment variables to
 
 `TWITTER_ACCESS_SECRET`
 
-`LANGCHAIN_TRACING_V2`  
+`LANGCHAIN_TRACING_V2`
 
-`LANGCHAIN_API_KEY` 
+`LANGCHAIN_API_KEY`
 
 `LANGCHAIN_PROJECT` # Optional
 
@@ -80,4 +80,3 @@ To run tests, run the following command
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.udemy.com/course/langchain/?referralCode=D981B8213164A3EA91AC)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eden-marco/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.udemy.com/user/eden-marco/)
-
