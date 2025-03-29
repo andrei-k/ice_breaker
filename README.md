@@ -35,6 +35,12 @@ pipenv install langchainhub
 ```
 Adds access to the Langchain Hub, which provides pre-built prompts, chains, and other reusable components for AI development.
 
+### 4. Install Black to format the code
+
+```bash
+pipenv install black
+```
+
 ---
 
 In Cursor, open the command palette and search for "Python: Select Interpreter" to select the virtual environment you created in step 2.
