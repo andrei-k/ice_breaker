@@ -45,7 +45,7 @@ Adds access to the Langchain Hub, which provides pre-built prompts, chains, and 
 ```bash
 pipenv install python-dotenv
 ```
-A package that allows you to load environment variables from a `.env` file into your Python application.
+A package that allows to dynamically load environment variables from a `.env` file.
 
 In Cursor, open the command palette and search for "Python: Select Interpreter" to select the virtual environment you created in step 2.
 
