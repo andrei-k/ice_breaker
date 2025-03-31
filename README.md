@@ -2,7 +2,7 @@
 
 A web application that crawls LinkedIn and X data about a person and customizes an ice breaker with them.
 
-Project forked from https://github.com/emarco177/ice_breaker and is part of the Langchain course on Udemy:
+Project forked from https://github.com/emarco177/ice_breaker and is part of the LangChain course on Udemy:
 https://www.udemy.com/course/langchain/.
 
 ---
@@ -48,6 +48,66 @@ Adds access to the Langchain Hub, which provides pre-built prompts, chains, and 
 pipenv install black
 ```
 
+In Cursor, open the command palette and search for "Python: Select Interpreter" to select the virtual environment you created in step 2.
+
 ---
 
-In Cursor, open the command palette and search for "Python: Select Interpreter" to select the virtual environment you created in step 2.
+## Run Locally
+
+### 1. Go to the project directory
+```bash
+  cd langchain-ice-breaker
+```
+
+### 2. Install dependencies
+```bash
+  pipenv install
+```
+
+### 3. Start the flask server
+```bash
+  pipenv run app.py
+```
+
+### 4. Run tests
+```bash
+  pipenv run pytest .
+```
+
+---
+
+## Environment variables
+
+To run this project, you will need to add the following environment variables to your .env file:
+
+`OPENAI_API_KEY`
+
+`SCRAPIN_API_KEY`
+
+`TAVILY_API_KEY`
+
+`TWITTER_API_KEY`
+
+`TWITTER_API_SECRET`
+
+`TWITTER_ACCESS_TOKEN`
+
+`TWITTER_ACCESS_SECRET`
+
+`LANGCHAIN_TRACING_V2`
+
+`LANGCHAIN_API_KEY`
+
+`LANGCHAIN_PROJECT` # Optional
+
+---
+
+## API services
+
+> **Note**: This project uses paid API services:
+> - [Scrapin.io](https://www.scrapin.io/?utm_campaign=influencer&utm_source=github&utm_medium=social&utm_content=edenmarco) for LinkedIn data scraping (20% discount available through this link, includes 20 free credits to start)
+> - Twitter API (paid) for accessing Twitter data
+
+> **Important note**: If you enable tracing by setting `LANGCHAIN_TRACING_V2=true`, you must have a valid LangSmith API key set in `LANGCHAIN_API_KEY`. Without a valid API key, the application will throw an error. If you don't need tracing, simply remove or comment out these environment variables.
+
+---
