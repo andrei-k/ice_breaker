@@ -52,6 +52,30 @@ In Cursor, open the command palette and search for "Python: Select Interpreter" 
 
 ---
 
+## Run Locally
+
+### 1. Go to the project directory
+```bash
+  cd langchain-ice-breaker
+```
+
+### 2. Install dependencies
+```bash
+  pipenv install
+```
+
+### 3. Start the flask server
+```bash
+  pipenv run app.py
+```
+
+### 4. Run tests
+```bash
+  pipenv run pytest .
+```
+
+---
+
 ## Environment variables
 
 To run this project, you will need to add the following environment variables to your .env file:
@@ -87,25 +111,3 @@ To run this project, you will need to add the following environment variables to
 > **Important note**: If you enable tracing by setting `LANGCHAIN_TRACING_V2=true`, you must have a valid LangSmith API key set in `LANGCHAIN_API_KEY`. Without a valid API key, the application will throw an error. If you don't need tracing, simply remove or comment out these environment variables.
 
 ---
-
-## Run Locally
-
-### 1. Go to the project directory
-```bash
-  cd langchain-ice-breaker
-```
-
-### 2. Install dependencies
-```bash
-  pipenv install
-```
-
-### 3. Start the flask server
-```bash
-  pipenv run app.py
-```
-
-### 4. Run tests
-```bash
-  pipenv run pytest .
-```
