@@ -42,11 +42,10 @@ pipenv install langchainhub
 ```
 Adds access to the Langchain Hub, which provides pre-built prompts, chains, and other reusable components for AI development.
 
-### 4. Install Black to format the code
-
 ```bash
-pipenv install black
+pipenv install python-dotenv
 ```
+A package that allows to dynamically load environment variables from a `.env` file.
 
 In Cursor, open the command palette and search for "Python: Select Interpreter" to select the virtual environment you created in step 2.
 
@@ -56,22 +55,22 @@ In Cursor, open the command palette and search for "Python: Select Interpreter" 
 
 ### 1. Go to the project directory
 ```bash
-  cd langchain-ice-breaker
+cd langchain-ice-breaker
 ```
 
 ### 2. Install dependencies
 ```bash
-  pipenv install
+pipenv install
 ```
 
 ### 3. Start the flask server
 ```bash
-  pipenv run app.py
+pipenv run app.py
 ```
 
 ### 4. Run tests
 ```bash
-  pipenv run pytest .
+pipenv run pytest .
 ```
 
 ---
