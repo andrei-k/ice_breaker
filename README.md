@@ -2,7 +2,7 @@
 
 A web application that crawls LinkedIn and X data about a person and customizes an ice breaker with them.
 
-Project forked from https://github.com/emarco177/ice_breaker and is part of the Langchain course on Udemy:
+Project forked from https://github.com/emarco177/ice_breaker and is part of the LangChain course on Udemy:
 https://www.udemy.com/course/langchain/.
 
 ---
@@ -84,28 +84,28 @@ To run this project, you will need to add the following environment variables to
 > - [Scrapin.io](https://www.scrapin.io/?utm_campaign=influencer&utm_source=github&utm_medium=social&utm_content=edenmarco) for LinkedIn data scraping (20% discount available through this link, includes 20 free credits to start)
 > - Twitter API (paid) for accessing Twitter data
 
-> **Important Note**: If you enable tracing by setting `LANGCHAIN_TRACING_V2=true`, you must have a valid LangSmith API key set in `LANGCHAIN_API_KEY`. Without a valid API key, the application will throw an error. If you don't need tracing, simply remove or comment out these environment variables.
+> **Important note**: If you enable tracing by setting `LANGCHAIN_TRACING_V2=true`, you must have a valid LangSmith API key set in `LANGCHAIN_API_KEY`. Without a valid API key, the application will throw an error. If you don't need tracing, simply remove or comment out these environment variables.
 
 ---
 
 ## Run Locally
 
-Go to the project directory
+### 1. Go to the project directory
 ```bash
   cd langchain-ice-breaker
 ```
 
-Install dependencies
+### 2. Install dependencies
 ```bash
   pipenv install
 ```
 
-Start the flask server
+### 3. Start the flask server
 ```bash
   pipenv run app.py
 ```
 
-To run tests, run the following command
+### 4. Run tests
 ```bash
   pipenv run pytest .
 ```
