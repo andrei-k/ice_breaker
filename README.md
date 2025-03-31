@@ -1,5 +1,12 @@
 # Ice Breaker
 
+A web application that crawls LinkedIn and X data about a person and customizes an ice breaker with them.
+
+Project forked from https://github.com/emarco177/ice_breaker and is part of the Langchain course on Udemy:
+https://www.udemy.com/course/langchain/.
+
+---
+
 ## Initial setup
 
 ### 1. Install pipenv (Python virtual environment manager)
